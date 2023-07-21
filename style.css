@@ -313,33 +313,36 @@ padding-right: 20px;
 .twiter-icon{
     width: 40px;
     height: 40px;
-    color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .facebook-icon {
-    width: 20px;
-    height: 20px;
-    color: #FFF;
-    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .youtube-icon{
-    width: 57.13px;
+    width: 40px;
     height: 40px;
-    color: #FFFFFF;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .linkdin-icon{
     width: 40px;
     height: 40px;
-    color: #FFFFFF;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .instragram-icon{
     width: 40px;
     height: 40px;
-    color: #FFF;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .apple-icon{
     width: 40px;
     height: 40px;
-    color: #FFF;
 }
 
 .footer-section-5{
@@ -355,6 +358,13 @@ text-align: center;
 font-size: 16px;
  
 font-weight: 500;
+ }
+
+ .footer-end{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500
  }
     
 
