@@ -89,9 +89,9 @@ background-color:rgba(255, 66, 165, 0.03);
 }
 .common-color-2{
     color: #534C64;
-margin-top: 20px;
+
     font-size: 20px;
-    text-align: center;
+   
     font-weight: 500;
 }
 .goat-color{
@@ -240,13 +240,123 @@ height: 500px;
 width: 400px;
     }
 
+.banner-5{
+    margin-top: 50px;
+    display: grid ;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    margin-left: 100px;
+}
+.banner-5-div{
+    display: flex;
+    width: 100px;
+}
+.banner-5-pic{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.banner-5-title{
+   
+    
+    font-size: 20px;
+    font-weight: 600; }
+
+.banner-5-div:hover {
+    border: 1px solid #F948B2;
+    border-radius: 20px;
+    width: 200px;
+    color: #F948B2;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 100px 200px;
+    background: #0B0223;
+}
+
+.footer-section-1{
+    display: flex;
+    justify-content: center;
+}
 
 
+.footer-section-1-title{
+    color: #FFF;
+font-size: 45px;
+font-weight: 700;
+margin-left: 20px;
+}
+.span-g{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.footer-section-2{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+}
+.footer-section-2-container h3{
+    color:white;
+font-size: 18px;
+font-weight: 600;
+padding-right: 20px;
+}
+.footer-section-3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    padding-right: 20px;
+}
+.twiter-icon{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+    padding: 10px;
+}
+.youtube-icon{
+    width: 57.13px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.linkdin-icon{
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.instragram-icon{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+}
+.apple-icon{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+}
 
+.footer-section-5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
 
-
-
-
+}
+ .scetion-5-container{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+ margin-right: 50px;
+font-size: 16px;
+ 
+font-weight: 500;
+ }
+    
 
 
 
@@ -299,6 +409,23 @@ width: 400px;
         
        padding: 10px; 
     }
+    
+    .banner-5{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-section-2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-section-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-section-5{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    }
 
 
 
@@ -308,7 +435,9 @@ width: 400px;
 
 
 
-}
+
+
+
 @media screen and(min-width:576px) and (max-width:992px)  {
     
     nav{
