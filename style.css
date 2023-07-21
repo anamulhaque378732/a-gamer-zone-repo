@@ -5,7 +5,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 body{
-    
+  width: 100%;  
+}
+i{
+    padding-right: 10px;
 }
 
 header{
@@ -86,9 +89,9 @@ background-color:rgba(255, 66, 165, 0.03);
 }
 .common-color-2{
     color: #534C64;
-     
+margin-top: 20px;
     font-size: 20px;
-    
+    text-align: center;
     font-weight: 500;
 }
 .goat-color{
@@ -171,6 +174,71 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
+.funny{
+    text-align: center;
+margin: 20px 300px;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
+}
+.banner-2{
+    display:flex;
+     
+    justify-content: center;
+}
+.images-images{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+margin-right: 20px;
+}
+.icon-images {
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+margin-right: 20px;
+}
+.common{
+    text-align: center;
+    width: 210px;
+}
+.banner-3{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.banner-3-title{
+font-size: 48px;
+font-weight: 700;
+    text-align: center;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-3-photo{
+    display: flex;
+  padding: 50px;
+    
+}
+.photo-66{
+height: 200px;
+width: 150px;
+position: relative;
+left: 100px;
+top: 350px;
+}
+    .photo-55{
+height: 500px;
+width: 400px;
+    }
 
 
 
@@ -214,7 +282,32 @@ background-clip: text;
     .banner-container-3{
         padding-left: 40px;
     }
-    
+
+    .funny{
+        margin: 10px 50px;
+    }
+    .banner-2{
+        flex-direction: column;
+    padding-left: 75px;
+    }
+    .banner-3{
+        flex-direction: column;
+        margin-left: 25px;
+   margin-right: 25px;
+    }
+    .banner-3-photo{
+        
+       padding: 10px; 
+    }
+
+
+
+
+
+
+
+
+
 }
 @media screen and(min-width:576px) and (max-width:992px)  {
     
@@ -225,6 +318,7 @@ background-clip: text;
     grid-template-columns: repeat(2, 1fr);
    
 }
+
 
 
 }
