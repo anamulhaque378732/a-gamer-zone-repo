@@ -1,0 +1,117 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,800&display=swap" rel="stylesheet"> );   
+
+
+{font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    margin: 20px 150px;
+}
+
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game{
+    list-style: none;
+}
+.gamer-img{
+    width: 86.041px;
+height: 40px;
+}
+.gamer-g{
+    color:#F948B2;
+    }
+
+ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-right{
+    display: flex;
+   
+    color: #4d24c0;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+      
+}
+
+.ul-li{
+    margin-right: 30px;
+    list-style: none; 
+}
+.website-name{
+    margin-left: 20px;
+    color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+}
+.btn-icon{
+    border: none;
+    width: 180px;
+height: 56px;border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+#youtube-icon{
+    width: 25px;
+    height: 18px;
+    color:  #F61C0D;
+}
+#tiktok-icon{
+    width: 20px;
+    height: 20px;
+color:#000000 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen  and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        margin: 10px 50px;
+    } 
+
+    
+}
+@media screen and(min-width:576px) and (max-width:992px)  {
+    
+    nav{
+        flex-direction: column;
+    }
+}
